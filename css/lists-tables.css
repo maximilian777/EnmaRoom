@@ -67,3 +67,29 @@ border-radius: 3px;
     top: 50%;
     transform: translateY(-50%);
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.head-body-foot thead {
+color: purple;
+background-color: rgb(243, 136, 13);
+}
+
+.head-body-foot tbody {
+    color: rgb(182, 212, 182);
+    font-weight: bold;
+    background-color: rgb(68, 39, 177);
+}
+.head-body-foot tfoot {
+    color: rgb(5, 4, 0);
+    background-color: rgb(227, 231, 233);
+}
+.head-body-foot thead:hover {
+    background-color: #acffe3;
+}
