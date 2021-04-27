@@ -6,6 +6,7 @@
 
 <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
 <link href="css/lists-tables.css" rel="stylesheet" type="text/css"/>
+<link href="css/slider.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
@@ -316,16 +317,18 @@ Sed eget tellus dui, eget sodales lectus.
 <br>
 
 <div class="div-content">
-    <img class="mySlides" src="img1.jpg" style="width:100%;">
-    <img class="mySlides" src="img2.jpg" style="width:100%;">
-    <img class="mySlides" src="img3.jpg" style="width:100%;">
-    <img class="mySlides" src="img4.jpg" style="width:100%;">
+    <img class="mySlides" src="img1.jpg" style="width:100%">
+    <img class="mySlides" src="img2.jpg" style="width:100%">
+    <img class="mySlides" src="img3.jpg" style="width:100%">
+    <img class="mySlides" src="img4.jpg" style="width:100%">
+    <button class="slider-button display-left" onclick="changeImage(-1)">&#11164;</button>
+    <button class="slider-button display-right" onclick="changeImage(1)">&#11166;</button>
+    </div>
 
-    <button class="slider-button display-left" onclick="changeImage (-1)">&#11164;</button>
-    <button class="slider button display-right" onclick="changeImage (1)">&#11166;</button>
-</div>
 
-<link href="slider.css" rel="stylesheet" type="text/css" />
+<script src="js/image-slider.js"></script>
+
+</body>
 
 <footer class="footer">
 
@@ -333,9 +336,7 @@ Sed eget tellus dui, eget sodales lectus.
 
 </footer>
 
-</div><!--wrapper slutar-->
-<img src="https://se.cosmoconsult.com/fileadmin/user_upload/cosmoconsult-hong-kong.jpg" alt="HKnight">
-<img src="https://images.unsplash.com/photo-1518599807935-37015b9cefcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="HKday">
+</div>
 </body>
 
 </html>
